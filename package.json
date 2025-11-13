@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Landing page",
   "homepage": "layout_landing-page",
+  "source": "src/index.html",
   "scripts": {
     "init": "mate-scripts init",
     "start": "mate-scripts start -l",
