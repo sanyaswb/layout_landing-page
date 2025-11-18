@@ -23,10 +23,6 @@
 
   @include on-desktop {
     height: 100vh;
-
-    .icon-menu {
-      display: none;
-    }
   }
 
   &__top {
