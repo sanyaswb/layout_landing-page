@@ -23,7 +23,11 @@
       background-image: url(../images/icons/icon-menu-hover.svg);
     }
 
-    @include no-hover-on-touch-icons;
+    @media (hover: none), (pointer: coarse) {
+      &:hover:not(:active) {
+        background-image: url(../images/icons/icon-menu.svg);
+      }
+    }
   }
 
   &--close {
