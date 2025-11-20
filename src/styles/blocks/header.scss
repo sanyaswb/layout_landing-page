@@ -55,6 +55,29 @@
     }
   }
 
+  @include on-desktop {
+    &__icon-phone {
+      &::before {
+        content: '+1 234 555-55-55';
+        pointer-events: none;
+        opacity: 0;
+        align-content: center;
+        position: absolute;
+        height: 32px;
+        font-weight: 700;
+        font-size: 12px;
+        color: var(--font-primary);
+        transform: translateX(calc(-100% - 20px));
+        transition: opacity 0.3s ease;
+      }
+
+      &:hover::before {
+        pointer-events: auto;
+        opacity: 1;
+      }
+    }
+  }
+
   &__title {
     z-index: 1;
     width: 100%;
