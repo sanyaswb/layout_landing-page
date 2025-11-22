@@ -6,7 +6,7 @@
   transition: all 0.3s;
   min-width: 320px;
 
-  &--overflow {
+  &:has(.menu--open) {
     overflow: hidden;
   }
 }

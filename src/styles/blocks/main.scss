@@ -1,4 +1,6 @@
 .main {
+  background-color: var(--bg-page);
+
   &__wrapper {
     @include main-padding;
   }
