@@ -15,13 +15,13 @@
   background-position: right;
 
   @include on-tablet {
-    background-position: bottom;
-    background-size: contain, cover;
-    height: 628px;
+    background-position: right, bottom;
+    height: 100vh;
   }
 
   @include on-desktop {
-    height: 100vh;
+    background-position: bottom;
+    background-size: contain, cover;
   }
 
   &__top {
