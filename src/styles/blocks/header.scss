@@ -16,7 +16,7 @@
   background-position: right;
 
   @include on-tablet {
-    background-position: center;
+    background-position: bottom;
     background-size: contain, cover;
     height: 628px;
   }
