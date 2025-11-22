@@ -1,1 +1,2 @@
 - [DEMO LINK](https://sanyaswb.github.io/layout_landing-page/)
+- [FIGMA LINK](https://www.figma.com/design/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0-1&p=f&t=GFm4bWrcLeOiA6Tg-0)
